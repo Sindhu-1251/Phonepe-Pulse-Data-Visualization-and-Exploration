@@ -12,7 +12,6 @@ from streamlit_option_menu import option_menu
 phn = Image.open(r"C:\Users\sindh\OneDrive\Desktop\Pro_img\phonepe-logo-icon.png")
 st.set_page_config(page_title='PhonePe Pulse', page_icon=phn, layout='wide')
 
-# Continue with the rest of your script
 st.title(':violet[ PhonePe Pulse Data Visualization And Exploration ]')
 
 SELECT = option_menu(
